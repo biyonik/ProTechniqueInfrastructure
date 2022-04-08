@@ -1,7 +1,3 @@
-using ProTechniqueInfrastructure.Business.Abstract;
-using ProTechniqueInfrastructure.DataAccess.Abstract;
-using ProTechniqueInfrastructure.Entities.Concrete;
-
 namespace ProTechniqueInfrastructure.Business.Concrete;
 
 public class ProductManager : IProductService
@@ -11,38 +7,46 @@ public class ProductManager : IProductService
     {
         _productDal = productDal;
     }
-    public async Task AddAsync(Product product)
+    
+    public async Task<IResult> AddAsync(Product product)
     {
         await _productDal.AddAsync(product);
+        return new SuccessResult(message: Messages.ProductAdded);
     }
 
-    public async Task Delete(Product product)
+    public async Task<IResult> Delete(Product product)
     {
         await _productDal.DeleteAsync(product);
+        return new SuccessResult(message: Messages.ProductDeleted);
     }
 
-    public List<Product> GetAll()
+    public IDataResult<List<Product>> GetAll()
     {
-        return _productDal.GetAll().ToList();
+        var data = _productDal.GetAll().ToList();
+        return new SuccessDataResult<List<Product>>(data);
     }
 
-    public async Task<List<Product>> GetAllAsync()
+    public async Task<IDataResult<List<Product>>> GetAllAsync()
     {
-        return (List<Product>) await _productDal.GetAllAsync();
+        var data = (List<Product>) await _productDal.GetAllAsync();
+        return new SuccessDataResult<List<Product>>(data);
     }
 
-    public async Task<Product> GetByIdAsync(int ProductId)
+    public async Task<IDataResult<Product>> GetByIdAsync(int ProductId)
     {
-        return await _productDal.GetAsync(p => p.ProductId == ProductId); 
+        var data = await _productDal.GetAsync(p => p.ProductId == ProductId); 
+        return new SuccessDataResult<Product>(data);
     }
 
-    public async Task<List<Product>> GetListByCategory(int CategoryId)
+    public async Task<IDataResult<List<Product>>> GetListByCategory(int CategoryId)
     {
-        return (List<Product>) await _productDal.GetAllAsync(p => p.CategoryId == CategoryId);
+        var data = (List<Product>) await _productDal.GetAllAsync(p => p.CategoryId == CategoryId);
+        return new SuccessDataResult<List<Product>>(data);
     }
 
-    public async Task Update(Product product)
+    public async Task<IResult> Update(Product product)
     {
         await _productDal.UpdateAsync(product);
+        return new SuccessResult(message: Messages.ProductUpdated);
     }
 }

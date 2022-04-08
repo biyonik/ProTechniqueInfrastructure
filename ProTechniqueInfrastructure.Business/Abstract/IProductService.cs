@@ -1,14 +1,12 @@
-using ProTechniqueInfrastructure.Entities.Concrete;
-
 namespace ProTechniqueInfrastructure.Business.Abstract;
 
 public interface IProductService 
 {
-    Task<Product> GetByIdAsync(int ProductId);
-    List<Product> GetAll();
-    Task<List<Product>> GetAllAsync();
-    Task<List<Product>> GetListByCategory(int CategoryId);
-    Task AddAsync(Product product);
-    Task Delete(Product product);
-    Task Update(Product product);
+    Task<IDataResult<Product>> GetByIdAsync(int ProductId);
+    IDataResult<List<Product>> GetAll();
+    Task<IDataResult<List<Product>>> GetAllAsync();
+    Task<IDataResult<List<Product>>> GetListByCategory(int CategoryId);
+    Task<IResult> AddAsync(Product product);
+    Task<IResult> Delete(Product product);
+    Task<IResult> Update(Product product);
 }
