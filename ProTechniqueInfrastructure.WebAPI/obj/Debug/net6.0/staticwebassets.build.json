@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rMjjiqGgIwAx956Ck7V7K9yp1NdRFsMPCtmKMn03xVk=",
+  "Source": "ProTechniqueInfrastructure.WebAPI",
+  "BasePath": "_content/ProTechniqueInfrastructure.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

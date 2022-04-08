@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ProTechniqueInfrastructure.Entities/ProTechniqueInfrastructure.Entities.csproj"/>
+    <ProjectReference Include="../ProTechniqueInfrastructure.DataAccess/ProTechniqueInfrastructure.DataAccess.csproj"/>
+  </ItemGroup>
+</Project>

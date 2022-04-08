@@ -1,0 +1,12 @@
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.deps.json
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.dll
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.pdb
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.csproj.AssemblyReference.cache
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.AssemblyInfoInputs.cache
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.AssemblyInfo.cs
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.csproj.CoreCompileInputs.cache
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.dll
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\refint\ProTechniqueInfrastructure.Core.dll
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.pdb
+E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ref\ProTechniqueInfrastructure.Core.dll
