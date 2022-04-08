@@ -8,11 +8,23 @@
     ".NETCoreApp,Version=v6.0": {
       "ProTechniqueInfrastructure.Business/1.0.0": {
         "dependencies": {
+          "Autofac": "6.3.0",
           "ProTechniqueInfrastructure.DataAccess": "1.0.0",
           "ProTechniqueInfrastructure.Entities": "1.0.0"
         },
         "runtime": {
           "ProTechniqueInfrastructure.Business.dll": {}
+        }
+      },
+      "Autofac/6.3.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.dll": {
+            "assemblyVersion": "6.3.0.0",
+            "fileVersion": "6.3.0.0"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -512,6 +524,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "path": "autofac/6.3.0",
+      "hashPath": "autofac.6.3.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

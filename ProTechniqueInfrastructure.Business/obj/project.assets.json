@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Autofac/6.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/net5.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -666,6 +678,27 @@
     }
   },
   "libraries": {
+    "Autofac/6.3.0": {
+      "sha512": "gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "type": "package",
+      "path": "autofac/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.6.3.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.pdb",
+        "lib/net5.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -1876,6 +1909,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Autofac >= 6.3.0",
       "ProTechniqueInfrastructure.DataAccess >= 1.0.0",
       "ProTechniqueInfrastructure.Entities >= 1.0.0"
     ]
@@ -1905,8 +1939,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
-              "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj"
+            "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
+              "projectPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj"
             },
             "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj": {
               "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj"
@@ -1923,6 +1957,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[6.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

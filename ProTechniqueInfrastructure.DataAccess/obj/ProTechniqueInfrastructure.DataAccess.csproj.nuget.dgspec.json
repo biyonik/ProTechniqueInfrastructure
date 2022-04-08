@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {}
+    "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {}
   },
   "projects": {
     "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj": {
@@ -62,14 +62,14 @@
         }
       }
     },
-    "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
+    "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
+        "projectUniqueName": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
         "projectName": "ProTechniqueInfrastructure.DataAccess",
-        "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
+        "projectPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
         "packagesPath": "C:\\Users\\AHMET ALTUN\\.nuget\\packages\\",
-        "outputPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\obj\\",
+        "outputPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AHMET ALTUN\\AppData\\Roaming\\NuGet\\NuGet.Config"

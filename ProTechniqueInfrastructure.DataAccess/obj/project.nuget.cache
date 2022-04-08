@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6YYrQow33SCI4raGPNiCknfbBOqYZjj9OI/qCLUo5kakskSEcdFPrjHVV/4we+hoEg3eu6XVTkIlS0jXusP7kA==",
+  "dgSpecHash": "39SSH0KRX0x6ReLxTbarhpTAoouUGeuYepXO+CQ9IlMHLBSvKFMMlPZANHq2DFVO3qt3Pqpo4D5R+AkIh/iSdw==",
   "success": true,
-  "projectFilePath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
+  "projectFilePath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AHMET ALTUN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AHMET ALTUN\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

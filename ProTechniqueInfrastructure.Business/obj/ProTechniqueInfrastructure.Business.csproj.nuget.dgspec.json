@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
-                "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj"
+              "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
+                "projectPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj"
               },
               "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj": {
                 "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -121,14 +127,14 @@
         }
       }
     },
-    "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
+    "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
+        "projectUniqueName": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
         "projectName": "ProTechniqueInfrastructure.DataAccess",
-        "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
+        "projectPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
         "packagesPath": "C:\\Users\\AHMET ALTUN\\.nuget\\packages\\",
-        "outputPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\obj\\",
+        "outputPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AHMET ALTUN\\AppData\\Roaming\\NuGet\\NuGet.Config"
