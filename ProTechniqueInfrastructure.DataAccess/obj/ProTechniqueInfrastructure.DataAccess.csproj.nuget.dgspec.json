@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {}
+    "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {}
   },
   "projects": {
-    "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj": {
+    "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj",
+        "projectUniqueName": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj",
         "projectName": "ProTechniqueInfrastructure.Core",
-        "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj",
-        "packagesPath": "C:\\Users\\AHMET ALTUN\\.nuget\\packages\\",
-        "outputPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\obj\\",
+        "projectPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj",
+        "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
+        "outputPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\AHMET ALTUN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +48,22 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -58,37 +81,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
+    "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
+        "projectUniqueName": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
         "projectName": "ProTechniqueInfrastructure.DataAccess",
-        "projectPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\AHMET ALTUN\\.nuget\\packages\\",
-        "outputPath": "e:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\obj\\",
+        "projectPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\ProTechniqueInfrastructure.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
+        "outputPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\AHMET ALTUN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj": {
-                "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj"
+              "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj": {
+                "projectPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj"
               },
-              "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj": {
-                "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj"
+              "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj": {
+                "projectPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj"
               }
             }
           }
@@ -131,34 +161,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj": {
+    "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj",
+        "projectUniqueName": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj",
         "projectName": "ProTechniqueInfrastructure.Entities",
-        "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj",
-        "packagesPath": "C:\\Users\\AHMET ALTUN\\.nuget\\packages\\",
-        "outputPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\obj\\",
+        "projectPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\ProTechniqueInfrastructure.Entities.csproj",
+        "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
+        "outputPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\AHMET ALTUN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj": {
-                "projectPath": "E:\\NetCoreLearnPath\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj"
+              "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj": {
+                "projectPath": "I:\\Projects\\NetCore\\ProTechniqueInfrastructure\\ProTechniqueInfrastructure.Core\\ProTechniqueInfrastructure.Core.csproj"
               }
             }
           }
@@ -187,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

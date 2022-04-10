@@ -1,4 +1,5 @@
 using System.Net;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProTechniqueInfrastructure.Business.Abstract;
 using ProTechniqueInfrastructure.Entities.Concrete;
@@ -18,6 +19,7 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet()]
+    [Authorize("Product.List")]
     public async Task<IActionResult> GetAll()
     {
         var result = await _productService.GetAllAsync();

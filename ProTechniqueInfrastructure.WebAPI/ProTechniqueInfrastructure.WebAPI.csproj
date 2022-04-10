@@ -5,10 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../ProTechniqueInfrastructure.Business/ProTechniqueInfrastructure.Business.csproj"/>
+    <ProjectReference Include="../ProTechniqueInfrastructure.Business/ProTechniqueInfrastructure.Business.csproj" />
   </ItemGroup>
 </Project>

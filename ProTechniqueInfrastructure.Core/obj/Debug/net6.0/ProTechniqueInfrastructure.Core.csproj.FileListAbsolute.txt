@@ -10,3 +10,15 @@ E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\o
 E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\refint\ProTechniqueInfrastructure.Core.dll
 E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.pdb
 E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ref\ProTechniqueInfrastructure.Core.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.deps.json
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.pdb
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.csproj.AssemblyReference.cache
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.GeneratedMSBuildEditorConfig.editorconfig
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.AssemblyInfoInputs.cache
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.AssemblyInfo.cs
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.csproj.CoreCompileInputs.cache
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\refint\ProTechniqueInfrastructure.Core.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ProTechniqueInfrastructure.Core.pdb
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.Core\obj\Debug\net6.0\ref\ProTechniqueInfrastructure.Core.dll

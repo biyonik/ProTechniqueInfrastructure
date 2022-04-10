@@ -10,4 +10,8 @@
     <ProjectReference Include="../ProTechniqueInfrastructure.Core/ProTechniqueInfrastructure.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract" />
+  </ItemGroup>
+
 </Project>

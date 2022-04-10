@@ -1,6 +1,10 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using ProTechniqueInfrastructure.Business.DependencyResolvers.Autofac;
+using ProTechniqueInfrastructure.Core.Utilities.Security.Encryption;
+using ProTechniqueInfrastructure.Core.Utilities.Security.JWT;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,11 +15,37 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Autofac Options
 builder.Host
     .UseServiceProviderFactory(new AutofacServiceProviderFactory())
     .ConfigureContainer<ContainerBuilder>(builder => {
         builder.RegisterModule(new AutofacBusinessModule());
     });
+// Cors Options
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin", 
+    builder => builder.WithOrigins("http://localhost:3000", "https://localhost:3000", "http://localhost:4200", "https://localhost:4200")
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+    );
+});
+
+// Jwt Authentication Options
+TokenOptions customTokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidIssuer = customTokenOptions.Issuer,
+        ValidAudience = customTokenOptions.Audience,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(customTokenOptions.SecurityKey)
+    };
+});
 
 var app = builder.Build();
 
@@ -26,9 +56,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// app.UseHttpsRedirection();
+app.UseCors("AllowOrigin");
+
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseAuthentication();
 
 app.MapControllers();
 

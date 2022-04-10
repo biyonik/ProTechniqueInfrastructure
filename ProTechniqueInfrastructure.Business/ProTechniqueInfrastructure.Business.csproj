@@ -5,10 +5,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="../ProTechniqueInfrastructure.Entities/ProTechniqueInfrastructure.Entities.csproj"/>
-    <ProjectReference Include="../ProTechniqueInfrastructure.DataAccess/ProTechniqueInfrastructure.DataAccess.csproj"/>
+    <ProjectReference Include="../ProTechniqueInfrastructure.Entities/ProTechniqueInfrastructure.Entities.csproj" />
+    <ProjectReference Include="../ProTechniqueInfrastructure.DataAccess/ProTechniqueInfrastructure.DataAccess.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="6.3.0"/>
+    <PackageReference Include="Autofac" Version="6.3.0" />
   </ItemGroup>
 </Project>
