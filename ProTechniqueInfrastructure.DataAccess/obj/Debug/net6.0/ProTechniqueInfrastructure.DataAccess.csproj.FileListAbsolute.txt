@@ -23,6 +23,15 @@ I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAc
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\ProTechniqueInfrastructure.DataAccess.pdb
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\ProTechniqueInfrastructure.Entities.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\System.IO.Pipelines.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\ProTechniqueInfrastructure.Core.pdb
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\bin\Debug\net6.0\ProTechniqueInfrastructure.Entities.pdb
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.DataAccess\obj\Debug\net6.0\ProTechniqueInfrastructure.DataAccess.csproj.AssemblyReference.cache

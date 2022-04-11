@@ -69,6 +69,7 @@ E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI
 E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\obj\Debug\net6.0\ProTechniqueInfrastructure.WebAPI.pdb
 E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\obj\Debug\net6.0\ProTechniqueInfrastructure.WebAPI.genruntimeconfig.cache
 E:\NetCoreLearnPath\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\obj\Debug\net6.0\ref\ProTechniqueInfrastructure.WebAPI.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\log4net.config
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\appsettings.Development.json
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\appsettings.json
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\ProTechniqueInfrastructure.WebAPI.exe
@@ -78,7 +79,13 @@ I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\ProTechniqueInfrastructure.WebAPI.pdb
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Autofac.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Castle.Core.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\FluentValidation.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Humanizer.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\log4net.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\MicroKnights.Log4NetAdoNetAppender.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -94,6 +101,7 @@ I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -140,4 +148,3 @@ I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\obj\Debug\net6.0\ProTechniqueInfrastructure.WebAPI.pdb
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\obj\Debug\net6.0\ProTechniqueInfrastructure.WebAPI.genruntimeconfig.cache
 I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\obj\Debug\net6.0\ref\ProTechniqueInfrastructure.WebAPI.dll
-I:\Projects\NetCore\ProTechniqueInfrastructure\ProTechniqueInfrastructure.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

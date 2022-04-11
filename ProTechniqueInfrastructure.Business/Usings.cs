@@ -6,3 +6,4 @@ global using ProTechniqueInfrastructure.Business.Constants;
 global using Autofac;
 global using ProTechniqueInfrastructure.Business.Concrete;
 global using ProTechniqueInfrastructure.DataAccess.Concrete.EntityFramework.Repositories;
+global using FluentValidation;

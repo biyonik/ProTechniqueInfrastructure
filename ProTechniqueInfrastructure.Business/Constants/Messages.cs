@@ -18,4 +18,6 @@ public static class Messages
     public static string UserAlreadyExists = "Kullanıcı zaten mevcut!";
     public static string AccessTokenCreated = "Access Token başarıyla oluşturuldu!";
     
+    public static string AuthorizationDenied = "Erişim engellendi!";
+    
 }

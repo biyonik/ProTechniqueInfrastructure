@@ -19,7 +19,6 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet()]
-    [Authorize("Product.List")]
     public async Task<IActionResult> GetAll()
     {
         var result = await _productService.GetAllAsync();
@@ -48,7 +47,7 @@ public class ProductsController : ControllerBase
     }
 
     [HttpPost()]
-    public async Task<IActionResult> Add([FromBody] Product entity)
+    public async Task<IActionResult> Add(Product entity)
     {
         var result = await _productService.AddAsync(entity);
         return result.Success
@@ -75,5 +74,14 @@ public class ProductsController : ControllerBase
         {
             return BadRequest();
         }
+    }
+    
+    [HttpPost("[action]")]
+    public async Task<IActionResult> TransactionTest(Product product)
+    {
+        var result = await _productService.TransactionalOperation(product);
+        return result.Success
+            ? Ok(result.Message)
+            : BadRequest(result.Message);
     }
 }

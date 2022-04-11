@@ -3,6 +3,9 @@ using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using ProTechniqueInfrastructure.Business.DependencyResolvers.Autofac;
+using ProTechniqueInfrastructure.Core.DependencyResolvers;
+using ProTechniqueInfrastructure.Core.Extensions;
+using ProTechniqueInfrastructure.Core.Utilities.IoC;
 using ProTechniqueInfrastructure.Core.Utilities.Security.Encryption;
 using ProTechniqueInfrastructure.Core.Utilities.Security.JWT;
 
@@ -21,6 +24,7 @@ builder.Host
     .ConfigureContainer<ContainerBuilder>(builder => {
         builder.RegisterModule(new AutofacBusinessModule());
     });
+
 // Cors Options
 builder.Services.AddCors(options =>
 {
@@ -45,6 +49,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(customTokenOptions.SecurityKey)
     };
+});
+
+builder.Services.AddDependencyResolvers(new ICoreModule[]
+{
+    new CoreModule()
 });
 
 var app = builder.Build();
